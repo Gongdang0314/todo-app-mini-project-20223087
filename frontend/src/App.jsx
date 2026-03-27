@@ -6,7 +6,7 @@ function App() {
   const [input, setInput] = useState('');
 
   // 백엔드 API 주소
-  const API = "/api/todos";
+  const API_URL = "/api/todos";
 
   // 1. Todo 목록 불러오기 (GET)
   const fetchTodos = async () => {
