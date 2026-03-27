@@ -5,8 +5,8 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [input, setInput] = useState('');
 
-  // 백엔드 API 주소 (로컬 테스트용)
-  const API_URL = 'http://localhost:5000/api/todos';
+  // 백엔드 API 주소
+  const API = "/api/todos";
 
   // 1. Todo 목록 불러오기 (GET)
   const fetchTodos = async () => {
